@@ -2,11 +2,11 @@ import React from 'react';
 import { Switch } from 'react-router-dom';
 import Route from './Route';
 
-import Profile from '../pages/Profile';
-import Dashboard from '../pages/Dashboard';
+import Profile from '~/pages/Profile';
+import Dashboard from '~/pages/Dashboard';
 
-import SingIn from '../pages/SingIn';
-import SingUp from '../pages/Dashboard';
+import SingIn from '~/pages/SingIn';
+import SingUp from '~/pages/SingUp';
 
 export default function Routes() {
   return (
