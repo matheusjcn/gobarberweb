@@ -23,7 +23,6 @@ export function* signIn({ payload }) {
     history.push('/dashboard');
   } catch (err) {
     yield put(signFailure());
-    console.log(`ERROOR-> ${err}`);
   }
 }
 
