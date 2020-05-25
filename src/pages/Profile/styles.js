@@ -54,16 +54,22 @@ export const Container = styled.div`
         background: ${darken(0.03, 'rgb(50, 100, 100)')};
       }
     }
+  }
 
-    a {
-      color: #fff;
-      margin-top: 15px;
-      font-size: 16px;
-      opacity: 0.8;
-    }
+  > button {
+    width: 100%;
+    margin: 10px 0 0;
+    height: 44px;
+    background: rgb(200, 80, 80);
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background 0.2s;
 
     &:hover {
-      opacity: 1;
+      background: ${darken(0.05, 'rgb(200, 80, 80)')};
     }
   }
 `;
