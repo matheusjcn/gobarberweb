@@ -1,14 +1,14 @@
 export function updateProfileRequest(data) {
   return {
     type: '@user/UPDATE_PROFILE_REQUEST',
-    palyload: { data },
+    payload: { data },
   };
 }
 
-export function updateProfileSucess(profile) {
+export function updateProfileSuccess(profile) {
   return {
-    type: '@user/UPDATE_PROFILE_SUCESS',
-    palyload: { profile },
+    type: '@user/UPDATE_PROFILE_SUCCESS',
+    payload: { profile },
   };
 }
 
